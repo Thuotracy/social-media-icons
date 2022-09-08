@@ -23,6 +23,24 @@
     list-style: none;
 }
 
+.sci li::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,calc(-50% + 120px));
+    font-size: 14vw;
+    font-weight: 700;
+    transition: .05s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.sci li:hover::before{
+opacity: 0.1;
+transform: translate(-50%,calc(-50% + 150px));
+}
+
 .sci li a{
     position: relative;
     display: inline-block;
@@ -59,6 +77,15 @@
     background: #c4405f;
 }
 
-.sci li a:hover.instagram{
+.sci li a:hover.whatsapp{
     background: #c4405f;
+}
+
+.sci li a .fa{
+    transition: 0.25s;
+    pointer-events: none;
+}
+
+.sci li a:hover .fa{
+    color: #fff;
 }
