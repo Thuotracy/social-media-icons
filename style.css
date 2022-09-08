@@ -43,10 +43,22 @@
     transition: background 0.25s;
 }
 
-.sci li a:hover .facebook{
+.sci li a:hover.facebook{
     background: #1877f2;
 }
 
-.sci li a:hover .youtube{
+.sci li a:hover.youtube{
     background: #ff0000;
+}
+
+.sci li a:hover.twitter{
+    background: #0099ff;
+}
+
+/* .sci li a:hover.instagram{
+    background: #c4405f;
+} */
+
+.sci li a:hover.instagram{
+    background: #c4405f;
 }
