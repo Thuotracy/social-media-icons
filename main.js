@@ -6,4 +6,9 @@ list.forEach(elements => {
         let color = event.target.getAttribute('data-color');
         bg.style.backgroundColor = color;
     })
+
+    elements.addEventListener('mouseleave', function
+    (event){
+        bg.style.backgroundColor = '#fff';
+    })
 })
