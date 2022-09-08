@@ -43,6 +43,6 @@
     transition: background 0.25s;
 }
 
-.sci li a:hover{
+.sci li a:hover .facebook{
     background: #1877f2;
 }
