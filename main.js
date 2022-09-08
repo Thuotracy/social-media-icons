@@ -1,3 +1,11 @@
+VanillaTilt.init(document.querySelectorAll(".sci li a"),{
+    max: 30,
+    speed:400,
+    glare:true,
+    "max-galre":1
+})
+
+
 let list = document.querySelectorAll('.sci li');
 let bg = document.querySelector('.socialMedia');
 list.forEach(elements => {

@@ -62,6 +62,10 @@ transform: translate(-50%,calc(-50% + 150px));
     transition: background 0.25s;
 }
 
+.js-tilt-glare{
+    border-radius: 10px;
+}
+
 .sci li a:hover.facebook{
     background: #1877f2;
 }
@@ -79,7 +83,7 @@ transform: translate(-50%,calc(-50% + 150px));
 }
 
 .sci li a:hover.whatsapp{
-    background: #c4405f;
+    background: rgb(4, 87, 4);
 }
 
 .sci li a .fa{
@@ -89,4 +93,5 @@ transform: translate(-50%,calc(-50% + 150px));
 
 .sci li a:hover .fa{
     color: #fff;
+    transform: scale(1.75) translateZ(50px);
 }
