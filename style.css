@@ -18,3 +18,7 @@
     position: relative;
     display: flex;
 }
+
+.sci li{
+    list-style: none;
+}
