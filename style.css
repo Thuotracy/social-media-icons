@@ -46,3 +46,7 @@
 .sci li a:hover .facebook{
     background: #1877f2;
 }
+
+.sci li a:hover .youtube{
+    background: #ff0000;
+}
